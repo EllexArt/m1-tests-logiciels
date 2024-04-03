@@ -2,3 +2,4 @@ fr/rouen/mastergil/tptest/MoneyUnitTest.class
 fr/rouen/mastergil/tptest/BankAccountUnitTest.class
 fr/rouen/mastergil/tptest/BankAccountWithDAOUnitTest.class
 fr/rouen/mastergil/tptest/meteo/StationMeteoIntegrationTest.class
+fr/rouen/mastergil/tptest/meteo/PrevisionUnitTest.class

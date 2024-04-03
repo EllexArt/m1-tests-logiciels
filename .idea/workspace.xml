@@ -4,10 +4,34 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0c5469e2-d82f-4af0-b5a5-585d4e3c0f74" name="Changes" comment="Feature : unit tests of Money">
-      <change afterPath="$PROJECT_DIR$/src/test/java/fr/rouen/mastergil/tptest/BankAccountUnitTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/fr/rouen/mastergil/tptest/BankAccountWithDAOUnitTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/fr/rouen/mastergil/tptest/meteo/StationMeteoIntegrationTest.java" afterDir="false" />
+    <list default="true" id="0c5469e2-d82f-4af0-b5a5-585d4e3c0f74" name="Changes" comment="Feature : integration tests">
+      <change afterPath="$PROJECT_DIR$/src/test/java/fr/rouen/mastergil/tptest/bonus/StringManipulationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/fr/rouen/mastergil/tptest/meteo/PrevisionUnitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/fr/rouen/mastergil/tptest/meteo/StationMeteoIntegrationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/fr/rouen/mastergil/tptest/meteo/StationMeteoIntegrationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jacoco-ut/fr.rouen.mastergil.tptest.meteo/Prevision.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/jacoco-ut/fr.rouen.mastergil.tptest.meteo/Prevision.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jacoco-ut/fr.rouen.mastergil.tptest.meteo/Prevision.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/jacoco-ut/fr.rouen.mastergil.tptest.meteo/Prevision.java.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jacoco-ut/fr.rouen.mastergil.tptest.meteo/StationMeteo.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/jacoco-ut/fr.rouen.mastergil.tptest.meteo/StationMeteo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jacoco-ut/fr.rouen.mastergil.tptest.meteo/StationMeteo.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/jacoco-ut/fr.rouen.mastergil.tptest.meteo/StationMeteo.java.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jacoco-ut/fr.rouen.mastergil.tptest.meteo/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/jacoco-ut/fr.rouen.mastergil.tptest.meteo/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jacoco-ut/fr.rouen.mastergil.tptest.meteo/index.source.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/jacoco-ut/fr.rouen.mastergil.tptest.meteo/index.source.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jacoco-ut/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/jacoco-ut/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jacoco-ut/jacoco-sessions.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/jacoco-ut/jacoco-sessions.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jacoco-ut/jacoco.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/jacoco-ut/jacoco.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jacoco-ut/jacoco.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/jacoco-ut/jacoco.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jacoco.exec" beforeDir="false" afterPath="$PROJECT_DIR$/target/jacoco.exec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2024-03-15T15-40-08_313.dumpstream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-fr.rouen.mastergil.tptest.BankAccountUnitTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-fr.rouen.mastergil.tptest.BankAccountUnitTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-fr.rouen.mastergil.tptest.BankAccountWithDAOUnitTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-fr.rouen.mastergil.tptest.BankAccountWithDAOUnitTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-fr.rouen.mastergil.tptest.MoneyUnitTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-fr.rouen.mastergil.tptest.MoneyUnitTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-fr.rouen.mastergil.tptest.meteo.StationMeteoIntegrationTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-fr.rouen.mastergil.tptest.meteo.StationMeteoIntegrationTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/fr.rouen.mastergil.tptest.BankAccountUnitTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/fr.rouen.mastergil.tptest.BankAccountUnitTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/fr.rouen.mastergil.tptest.BankAccountWithDAOUnitTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/fr.rouen.mastergil.tptest.BankAccountWithDAOUnitTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/fr.rouen.mastergil.tptest.MoneyUnitTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/fr.rouen.mastergil.tptest.MoneyUnitTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/fr.rouen.mastergil.tptest.meteo.StationMeteoIntegrationTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/fr.rouen.mastergil.tptest.meteo.StationMeteoIntegrationTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/fr/rouen/mastergil/tptest/meteo/StationMeteoIntegrationTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/fr/rouen/mastergil/tptest/meteo/StationMeteoIntegrationTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,12 +41,25 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Class" />
         <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="KubernetesApiProvider">{
+  &quot;contexts&quot;: [
+    {
+      &quot;name&quot;: &quot;minikube&quot;,
+      &quot;originalNamespace&quot;: &quot;default&quot;
+    }
+  ],
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="KubernetesSettings">
+    <option name="contextName" value="minikube" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -50,6 +87,7 @@
     &quot;JUnit.MoneyUnitAssertJTest.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.MoneyUnitJUnitTest.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.MoneyUnitTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.StationMeteoIntegrationTest.shouldMainReturnSuccessAndPrintString.executor&quot;: &quot;Run&quot;,
     &quot;Maven.TP-Test [clean].executor&quot;: &quot;Run&quot;,
     &quot;Maven.TP-Test [install].executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
@@ -66,7 +104,7 @@
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -82,11 +120,12 @@
       <recent name="fr.rouen.mastergil.tptest" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="fr.rouen.mastergil.tptest.bonus" />
       <recent name="fr.rouen.mastergil.tptest.meteo" />
       <recent name="fr.rouen.mastergil.tptest" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.StationMeteo">
+  <component name="RunManager" selected="JUnit.BankAccountWithDAOUnitTest">
     <configuration name="StationMeteo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="fr.rouen.mastergil.tptest.meteo.StationMeteo" />
       <module name="TP-Test" />
@@ -96,22 +135,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BankAccountUnitTest.shouldWithdrawMoneySucessfullyWithNoInitialAmount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TP-Test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="fr.rouen.mastergil.tptest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="fr.rouen.mastergil.tptest" />
-      <option name="MAIN_CLASS_NAME" value="fr.rouen.mastergil.tptest.BankAccountUnitTest" />
-      <option name="METHOD_NAME" value="shouldWithdrawMoneySucessfullyWithNoInitialAmount" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -163,13 +186,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StationMeteoIntegrationTest.shouldMainReturnSuccessAndPrintString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TP-Test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fr.rouen.mastergil.tptest.meteo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="fr.rouen.mastergil.tptest.meteo" />
+      <option name="MAIN_CLASS_NAME" value="fr.rouen.mastergil.tptest.meteo.StationMeteoIntegrationTest" />
+      <option name="METHOD_NAME" value="shouldMainReturnSuccessAndPrintString" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.StationMeteo" />
         <item itemvalue="JUnit.BankAccountWithDAOUnitTest" />
+        <item itemvalue="JUnit.StationMeteoIntegrationTest.shouldMainReturnSuccessAndPrintString" />
+        <item itemvalue="Application.StationMeteo" />
         <item itemvalue="JUnit.BankAccountWithDAOUnitTest.shouldCreateAnAccountWithFailedDAO" />
         <item itemvalue="JUnit.BankAccountWithDAOUnitTest.shouldCreateAnAccountWithAConnectionClosed" />
-        <item itemvalue="JUnit.BankAccountUnitTest.shouldWithdrawMoneySucessfullyWithNoInitialAmount" />
       </list>
     </recent_temporary>
   </component>
@@ -188,6 +227,10 @@
       <workItem from="1707554418775" duration="94000" />
       <workItem from="1710506390983" duration="7225000" />
       <workItem from="1710687350766" duration="56000" />
+      <workItem from="1711110640249" duration="374000" />
+      <workItem from="1711111574359" duration="6575000" />
+      <workItem from="1711125480965" duration="119000" />
+      <workItem from="1711213816013" duration="16000" />
     </task>
     <task id="LOCAL-00001" summary="Feature : unit tests of Money">
       <option name="closed" value="true" />
@@ -197,7 +240,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706901349832</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Feature : integration tests">
+      <option name="closed" value="true" />
+      <created>1711110715475</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1711110715475</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -205,6 +256,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Feature : unit tests of Money" />
-    <option name="LAST_COMMIT_MESSAGE" value="Feature : unit tests of Money" />
+    <MESSAGE value="Feature : integration tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="Feature : integration tests" />
   </component>
 </project>

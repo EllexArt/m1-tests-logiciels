@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="fr.rouen.mastergil.tptest.BankAccountUnitTest" time="0.026" tests="11" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="fr.rouen.mastergil.tptest.BankAccountUnitTest" time="0.018" tests="11" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
@@ -11,7 +11,7 @@
     <property name="java.vm.specification.version" value="17"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-17-openjdk-amd64/lib"/>
-    <property name="sun.java.command" value="/home/axelle/M1/tests logiciels/target/surefire/surefirebooter17153242884771342140.jar /home/axelle/M1/tests logiciels/target/surefire 2024-03-15T15-40-08_313-jvmRun1 surefire17895680806949429568tmp surefire_04104791640122841980tmp"/>
+    <property name="sun.java.command" value="/home/axelle/M1/tests logiciels/target/surefire/surefirebooter15658667471237147378.jar /home/axelle/M1/tests logiciels/target/surefire 2024-03-22T14-32-56_466-jvmRun1 surefire13426532382042339254tmp surefire_012643727018777943tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/home/axelle/M1/tests logiciels/target/test-classes:/home/axelle/M1/tests logiciels/target/classes:/home/axelle/.m2/repository/com/sun/jersey/jersey-json/1.19.4/jersey-json-1.19.4.jar:/home/axelle/.m2/repository/com/sun/xml/bind/jaxb-impl/2.2.3-1/jaxb-impl-2.2.3-1.jar:/home/axelle/.m2/repository/javax/xml/bind/jaxb-api/2.2.2/jaxb-api-2.2.2.jar:/home/axelle/.m2/repository/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar:/home/axelle/.m2/repository/javax/activation/activation/1.1/activation-1.1.jar:/home/axelle/.m2/repository/org/codehaus/jackson/jackson-core-asl/1.9.2/jackson-core-asl-1.9.2.jar:/home/axelle/.m2/repository/org/codehaus/jackson/jackson-mapper-asl/1.9.2/jackson-mapper-asl-1.9.2.jar:/home/axelle/.m2/repository/org/codehaus/jackson/jackson-jaxrs/1.9.2/jackson-jaxrs-1.9.2.jar:/home/axelle/.m2/repository/org/codehaus/jackson/jackson-xc/1.9.2/jackson-xc-1.9.2.jar:/home/axelle/.m2/repository/com/sun/jersey/jersey-core/1.19.4/jersey-core-1.19.4.jar:/home/axelle/.m2/repository/javax/ws/rs/jsr311-api/1.1.1/jsr311-api-1.1.1.jar:/home/axelle/.m2/repository/com/sun/jersey/jersey-client/1.19.4/jersey-client-1.19.4.jar:/home/axelle/.m2/repository/org/codehaus/jettison/jettison/1.5.4/jettison-1.5.4.jar:/home/axelle/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.9.2/junit-jupiter-engine-5.9.2.jar:/home/axelle/.m2/repository/org/junit/platform/junit-platform-engine/1.9.2/junit-platform-engine-1.9.2.jar:/home/axelle/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/home/axelle/.m2/repository/org/junit/platform/junit-platform-commons/1.9.2/junit-platform-commons-1.9.2.jar:/home/axelle/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.9.2/junit-jupiter-api-5.9.2.jar:/home/axelle/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/home/axelle/.m2/repository/org/assertj/assertj-core/3.24.2/assertj-core-3.24.2.jar:/home/axelle/.m2/repository/net/bytebuddy/byte-buddy/1.12.21/byte-buddy-1.12.21.jar:/home/axelle/.m2/repository/org/mockito/mockito-junit-jupiter/5.2.0/mockito-junit-jupiter-5.2.0.jar:/home/axelle/.m2/repository/org/mockito/mockito-core/5.2.0/mockito-core-5.2.0.jar:/home/axelle/.m2/repository/net/bytebuddy/byte-buddy-agent/1.14.1/byte-buddy-agent-1.14.1.jar:/home/axelle/.m2/repository/org/objenesis/objenesis/3.3/objenesis-3.3.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -26,7 +26,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="/home/axelle/M1/tests logiciels/target/surefire/surefirebooter17153242884771342140.jar"/>
+    <property name="surefire.real.class.path" value="/home/axelle/M1/tests logiciels/target/surefire/surefirebooter15658667471237147378.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.10+7-Ubuntu-122.04.1"/>
     <property name="user.name" value="axelle"/>
@@ -52,13 +52,13 @@
   </properties>
   <testcase name="shouldWithdrawMoneySuccessfullyWithInvalidAmountAndAnInitialAmount" classname="fr.rouen.mastergil.tptest.BankAccountUnitTest" time="0"/>
   <testcase name="shouldDepositMoneySuccessfullyWithValidAmount" classname="fr.rouen.mastergil.tptest.BankAccountUnitTest" time="0"/>
-  <testcase name="shouldWithdrawMoneySuccessfullyWithNoInitialAmount" classname="fr.rouen.mastergil.tptest.BankAccountUnitTest" time="0"/>
-  <testcase name="shouldWithdrawMoneySuccessfullyWithValidAmountAndAnInitialAmount" classname="fr.rouen.mastergil.tptest.BankAccountUnitTest" time="0"/>
-  <testcase name="shouldCreateABankAccountWithValidValuesSuccessfully" classname="fr.rouen.mastergil.tptest.BankAccountUnitTest" time="0.001"/>
-  <testcase name="shouldDisplayPayWithNoAmountAndDefaultDeviseSucessfully" classname="fr.rouen.mastergil.tptest.BankAccountUnitTest" time="0.009"/>
+  <testcase name="shouldWithdrawMoneySuccessfullyWithNoInitialAmount" classname="fr.rouen.mastergil.tptest.BankAccountUnitTest" time="0.001"/>
+  <testcase name="shouldWithdrawMoneySuccessfullyWithValidAmountAndAnInitialAmount" classname="fr.rouen.mastergil.tptest.BankAccountUnitTest" time="0.001"/>
+  <testcase name="shouldCreateABankAccountWithValidValuesSuccessfully" classname="fr.rouen.mastergil.tptest.BankAccountUnitTest" time="0"/>
+  <testcase name="shouldDisplayPayWithNoAmountAndDefaultDeviseSucessfully" classname="fr.rouen.mastergil.tptest.BankAccountUnitTest" time="0.002"/>
   <testcase name="shouldDepositMoneySuccessfullyWithValidAmountAndAnInitialAmount" classname="fr.rouen.mastergil.tptest.BankAccountUnitTest" time="0.001"/>
-  <testcase name="shouldNotBePositivePay" classname="fr.rouen.mastergil.tptest.BankAccountUnitTest" time="0.002"/>
-  <testcase name="shouldBePositivePay" classname="fr.rouen.mastergil.tptest.BankAccountUnitTest" time="0.002"/>
+  <testcase name="shouldNotBePositivePay" classname="fr.rouen.mastergil.tptest.BankAccountUnitTest" time="0.003"/>
+  <testcase name="shouldBePositivePay" classname="fr.rouen.mastergil.tptest.BankAccountUnitTest" time="0.001"/>
   <testcase name="shouldDisplayPayWithAValidAmountAndDeviseSuccessfully" classname="fr.rouen.mastergil.tptest.BankAccountUnitTest" time="0.001"/>
   <testcase name="shouldCreateABankAccountWithNoValuesSuccessfully" classname="fr.rouen.mastergil.tptest.BankAccountUnitTest" time="0.001"/>
 </testsuite>
